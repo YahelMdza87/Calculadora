@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(5, 37, 37);
+}
+header{
+    background-color: rgb(0, 72, 72);
+   
+   
+}
+dt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(220, 228, 255);
+}
+
+#img{
+    border: solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+marquee {
+    color: rgb(222, 222, 255);
+    font-size: 4vw;
+}
+aside{
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    height: 60%;
+    background-color: rgb(0, 72, 72);
+}
+section{
+    box-sizing: border-box;
+    position: relative;
+    width: 70%;
+    height: 60%;
+    margin-left: auto;
+    background-color: rgba(0, 238, 255, 0.322);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 5%;
+    background-color: teal;
+    
+}
+
+
+.resultado {
+    font-size: 2vw;
+    text-align: right;
+    border: solid;
+    width: 60%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor {
+    position: relative;
+    top: 2vw;
+    margin-left: 100px;
+    margin-right: auto;
+}
+input{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(0, 184, 184);
+    text-align: center;
+    opacity: 80%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+input:hover{
+    background-color: aqua;
+
+}
+input.simbolos:focus {
+    background-color: aqua;
+}
+button{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(0, 184, 184);
+    text-align: center;
+    opacity: 80%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 10px;
+    top: 14px;
+
+  }
+button:hover{
+    background-color: aqua;
+
+}
+
+.caja{
+    margin-top: 5%;
+    margin-left: auto ;
+    margin-right: auto ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 70%;
+}

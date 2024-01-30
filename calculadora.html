@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="efectos.css">
+        <script type="text/javascript" src="operaciones.js"></script>
+    </head>
+        <body>
+        <div class="caja">
+            <center>
+                <header>
+                    <marquee scrolldelay="60" >Calculadora</marquee>
+                </header>
+            </center>
+            <aside>
+                <br>
+                <br><br> 
+                <ul>
+                    <dt><img src="foto.jpg" id="img" alt=""><br><br>Yahel Adrián Mendoza Gutiérrez</dt>
+                    <br>
+                </ul>
+            </aside>
+            <section>
+               
+                    <br>
+                <div id="pantalla_res" class="resultado"></div>
+                
+                 <div class="contenedor">
+                    <div >
+                        <input type="button" value="1" class="" onclick="numero('1')"/><input type="button" value="2" class="" onclick="numero('2')"/><input type="button" value="3" class="" onclick="numero('3')"/><input type="button" value="C" class="" onclick="borrar()"><button type="submit" ><img src="delete.png" alt="" onclick="deleteCaracter()"></button> 
+                    </div>
+                    
+                    <div>
+                        <input type="button" value="4" class="" onclick="numero('4')"/><input type="button" value="5" class="" onclick="numero('5')"/><input type="button" value="6" class="" onclick="numero('6')"/><input type="button" value="+" class="simbolos" onclick="addoperacion('+')"/><input type="button" value="/" class="simbolos" onclick="addoperacion('/')"/>
+                    </div>
+                    
+                    <div>
+                        <input type="button" value="7" class="" onclick="numero('7')"/><input type="button" value="8" class="" onclick="numero('8')"/><input type="button" value="9" class="" onclick="numero('9')"/><input type="button" value="-" class="simbolos" onclick="addoperacion('-')"/><input type="button" value="*" class="simbolos" onclick="addoperacion('*')"/>
+                    </div>
+                    
+                    <div>
+                        <input type="button" value="." class="" onclick="numero('.')"/><input type="button" value="0" class="" onclick="numero('0')"/><input type="button" value="00" class="" onclick="numero('00')"/><input type="button" value="√" class="simbolos" onclick="raiz()"><input type="button" value="=" class="" onclick="igualar()">
+                    </div>
+                </div>
+            
+            </section>
+        </div>
+   
+    </body>
+        <center>
+        <footer>
+            TODOS LOS DERECHOS RESEVADOS PERTENECEN AL PROPIETARIO FBI MENDOZA C. 2022
+        </footer>
+    </center>
+    </head>
+</html>
